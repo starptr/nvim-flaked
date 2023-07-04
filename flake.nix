@@ -21,7 +21,7 @@
       default = pkgs.nuenv.mkDerivation {
         name = "hello";
         packages = [ pkgs.hello ];
-        src = ./.;
+        src = builtins.path { path = ./.; };
         # This script is Nushell, not Bash!
         debug = true;
         build = ''
