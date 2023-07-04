@@ -23,6 +23,7 @@
         packages = [ pkgs.hello ];
         src = ./.;
         # This script is Nushell, not Bash!
+        debug = true;
         build = ''
           hello --greeting $"($env.MESSAGE)" | save hello.txt
           let out = $"($env.out)/share"
