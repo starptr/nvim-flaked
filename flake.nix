@@ -1,7 +1,7 @@
 {
   inputs = {
     nixpkgs.url = "nixpkgs";
-    nuenv.url = "path:/home/yuto.linux/src/nuenv";
+    nuenv.url = "github:DeterminateSystems/nuenv";
   };
 
   outputs = { self, nixpkgs, nuenv }: let

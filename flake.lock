@@ -53,14 +53,17 @@
         "rust-overlay": "rust-overlay"
       },
       "locked": {
-        "lastModified": 1688499478,
-        "narHash": "sha256-41LqynEan+ta2Zw8oXGhRVN9nTI4Q1ad5XQHttmkkwg=",
-        "path": "/home/yuto.linux/src/nuenv",
-        "type": "path"
+        "lastModified": 1687815272,
+        "narHash": "sha256-c8hyVpYQ5M6/4jlEOMC2nxrsWaVHqYfrBJX7KFMCJA4=",
+        "owner": "DeterminateSystems",
+        "repo": "nuenv",
+        "rev": "e7ffcac15811166a717b240d60d2c7190a13410c",
+        "type": "github"
       },
       "original": {
-        "path": "/home/yuto.linux/src/nuenv",
-        "type": "path"
+        "owner": "DeterminateSystems",
+        "repo": "nuenv",
+        "type": "github"
       }
     },
     "root": {
